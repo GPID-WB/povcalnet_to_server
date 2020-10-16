@@ -138,7 +138,7 @@ dm <- unique(dm)
 
 
 pin(dm,
-    name = "headcount_50percent_median_country",
+    name = "50percent_median_country",
     description = "Share of population below 50% of the median at country level",
     board = "rsconnect")
 
