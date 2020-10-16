@@ -1,0 +1,12 @@
+name: headcount_50percent_median_country
+title: headcount_50percent_median_country
+username: acastanedaa
+account: acastanedaa
+server: w0lxopshyprd1b.worldbank.org
+hostUrl: http://w0lxopshyprd1b.worldbank.org:3939/__api__
+appId: 650
+bundleId: 15274
+url: http://w0lxopshyprd1b.worldbank.org:3939/content/650/
+when: 1602866658.65576
+asMultiple: FALSE
+asStatic: FALSE
