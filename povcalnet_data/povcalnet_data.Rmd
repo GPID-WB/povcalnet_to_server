@@ -22,7 +22,12 @@ board_register_rsconnect(server = my_server,
 #
 #----------------------------------------------------------
 
-pcn           <- povcalnetR::povcalnet()
+pov_lines <- c(1.9, 3.2, 5.5)
+pcn <- purrr::map_dfr(.x = pov_lines, 
+                      .f = ~{
+                        povcalnetR::povcalnet(povline = .x)
+                      })   
+
 pcn_wb        <- povcalnetR::povcalnet_wb()
 pcn_fillgaps  <- povcalnetR::povcalnet(fill_gaps = TRUE)
 
